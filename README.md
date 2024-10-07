@@ -17,7 +17,7 @@ The official GitHub repository for **LSTMppo-DRL-StockTrade**, implementing a De
   <summary>
   <font size="+1">Abstract</font>
   </summary>
-Stock trading strategies are essential for successful investment, yet developing a profitable approach is challenging due to the dynamic nature of the stock market. This repository introduces a **Deep Reinforcement Learning (DRL)** framework for automated stock trading that integrates technical and fundamental analyses using a large language model (FinBERT). The experimental results demonstrate superior performance in cumulative return, maximum earning rate, and Sharpe ratio, showing that the proposed model outperforms traditional methods.
+Stock trading strategies are essential for successful investment, yet developing a profitable approach is challenging due to the dynamic nature of the stock market. This repository introduces a Deep Reinforcement Learning (DRL) framework for automated stock trading that integrates technical and fundamental analyses using a large language model (FinBERT). The experimental results demonstrate superior performance in cumulative return, maximum earning rate, and Sharpe ratio, showing that the proposed model outperforms traditional methods.
 </details>
 
 ---
