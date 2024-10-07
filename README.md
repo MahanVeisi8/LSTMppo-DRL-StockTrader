@@ -27,12 +27,21 @@ Stock trading strategies are essential for successful investment, yet developing
 ### Environment Setup
 
 ```bash
-# Step 1: Create a virtual environment using conda or micromamba
+
+To set up the environment for this project, follow these steps:
+
+```bash
+# Step 1: Create a virtual environment using micromamba or conda:
 micromamba create -n lstmppo-drl python=3.9 -y
 or
 conda create -n lstmppo-drl python=3.9 -y
 
-# Step 2: Install required libraries
+# Step 2: Activate the virtual environment:
+micromamba activate lstmppo-drl
+or
+conda activate lstmppo-drl
+
+# Step 3: Install the required libraries from the requirements file:
 pip install -r requirements.txt
 ```
 
