@@ -4,7 +4,6 @@
 
 The official GitHub repository for **LSTMppo-DRL-StockTrade**, implementing a Deep Reinforcement Learning (DRL) system for automated stock trading. This repository is associated with the article authored by **Mahan Veisi**, **Sadra Berangi**, **Mahdi Shahbazi Khojasteh**, and **Armin Salimi-Badr**.
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2407.13372)
 
 ---
 
