@@ -1,54 +1,52 @@
 # LSTMppo-DRL-StockTrade
 
-This repository is associated with the research article titled **"A Deep Reinforcement Learning Approach Combining Technical and Fundamental Analyses with a Large Language Model for Stock Trading."** The repository will host code and resources implementing a stock trading system that leverages Deep Reinforcement Learning (DRL) techniques, combining **Long Short-Term Memory (LSTM)** networks with **Proximal Policy Optimization (PPO)** to model the complexities of stock market trading. Additionally, the model incorporates market data and financial news embeddings from **FinBERT** to create a rich state representation for the agent.
+### **A Deep Reinforcement Learning Approach Combining Technical and Fundamental Analyses with a Large Language Model for Stock Trading**
 
-**Note**: The code and datasets are currently being prepared and will be uploaded soon. Stay tuned for updates!
+The official GitHub repository for **LSTMppo-DRL-StockTrade**, implementing a Deep Reinforcement Learning (DRL) system for automated stock trading. This repository is associated with the article authored by **Mahan Veisi**, **Sadra Berangi**, **Mahdi Shahbazi Khojasteh**, and **Armin Salimi-Badr**.
 
-## Key Highlights
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2407.13372)
 
-- **Deep Reinforcement Learning (DRL) Framework**: Combines technical indicators and fundamental news analysis.
-- **Hybrid LSTM-PPO Architecture**: Aimed at capturing intricate temporal patterns in stock market data.
-- **Sentiment Analysis Integration**: Utilizes FinBERT to analyze financial news, enhancing decision-making processes.
-- **Drawdown Penalty Mechanism**: Incorporated in the reward function to improve portfolio stability.
-  
-## Article Abstract
+---
 
-Stock trading strategies are essential for successful investment, yet developing a profitable approach is challenging due to the complex and dynamic nature of the stock market. This project introduces a **Deep Reinforcement Learning (DRL)** framework for automated stock trading that integrates technical and fundamental analyses with a large language model. The model incorporates financial news headlines, processed using **FinBERT**, to create a comprehensive state representation. The experimental results demonstrate superior performance in cumulative return, maximum earning rate, and Sharpe ratio, indicating that the proposed model outperforms existing methods in terms of both resilience and profitability.
+## Latest
+- `10/07/2024`: The repository has been created. The code will be publicly available soon. Stay tuned for updates!
 
-## Planned Features
+---
 
-1. **Data Collection and Preprocessing**:
-   - Stock market data from **Yahoo Finance** and financial news data from **Benzinga**.
-   - News embeddings generated using **FinBERT**.
+## Method
+<details>
+  <summary>
+  <font size="+1">Abstract</font>
+  </summary>
+Stock trading strategies are essential for successful investment, yet developing a profitable approach is challenging due to the dynamic nature of the stock market. This repository introduces a **Deep Reinforcement Learning (DRL)** framework for automated stock trading that integrates technical and fundamental analyses using a large language model (FinBERT). The experimental results demonstrate superior performance in cumulative return, maximum earning rate, and Sharpe ratio, showing that the proposed model outperforms traditional methods.
+</details>
 
-2. **Trading Agent**:
-   - The agent is built on the **LSTM-PPO** architecture.
-   - Action space consists of continuous buy/sell signals for each stock in the portfolio.
-   - Reward function includes a custom **drawdown penalty** for portfolio stability.
-
-3. **Model Training and Evaluation**:
-   - Backtesting on U.S. stocks and performance metrics such as **Cumulative Return (CR)**, **Max Earning Rate (MER)**, and **Sharpe Ratio (SR)**.
-   - Comparisons with baseline models such as **A2C**, **PPO**, and other ensemble methods.
+---
 
 ## Installation
 
-To run the code (when uploaded), the following dependencies will be required:
+### Environment Setup
 
 ```bash
-pip install stable-baselines3[extra]
-pip install transformers
-pip install talib-binary
+# Step 1: Create a virtual environment using conda or micromamba
+micromamba create -n lstmppo-drl python=3.9 -y
+or
+conda create -n lstmppo-drl python=3.9 -y
+
+# Step 2: Install required libraries
+pip install -r requirements.txt
 ```
 
-Additional instructions for setting up the environment will be provided after the code is uploaded.
+---
 
-## License
+## Datasets
+Datasets will be added soon. The stock price data is sourced from **Yahoo Finance**, and news data is collected from **Benzinga**. News sentiment analysis will be performed using **FinBERT**.
 
-This repository is licensed under the **MIT License**.
+---
 
 ## Citation
 
-If you use this repository or reference the associated article in your work, please cite the paper as follows:
+If you find this repository helpful in your research or project, please cite the article and consider giving a ⭐ on the repository.
 
 ```
 @article{Veisi2024DRL,
@@ -59,8 +57,7 @@ If you use this repository or reference the associated article in your work, ple
 }
 ```
 
-## Future Work
+---
 
-- **Incorporation of Social Media Sentiment**: Expand the state space with real-time sentiment analysis from social platforms.
-- **Dynamic Risk Management**: Further refine the drawdown penalty to optimize risk-adjusted returns across various market conditions.
-
+## Acknowledgements
+This code is inspired by works like **[Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)** and **[FinBERT](https://huggingface.co/yiyanghkust/finbert-tone)** for sentiment analysis.
