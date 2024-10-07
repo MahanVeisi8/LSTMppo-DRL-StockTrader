@@ -40,7 +40,6 @@ conda create -n lstmppo-drl python=3.9 -y
 micromamba activate lstmppo-drl
 or
 conda activate lstmppo-drl
-```
 
 # Step 3: Install the required libraries from the requirements file:
 pip install -r requirements.txt
