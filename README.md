@@ -26,7 +26,7 @@ Stock trading strategies are essential for successful investment, yet developing
 
 ### Environment Setup
 
-```bash
+
 
 To set up the environment for this project, follow these steps:
 
