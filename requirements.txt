@@ -1,0 +1,12 @@
+gymnasium
+stable-baselines3[extra]
+sb3-contrib
+yfinance
+pandas
+numpy
+matplotlib
+torch
+vaderSentiment
+transformers
+talib
+scipy
