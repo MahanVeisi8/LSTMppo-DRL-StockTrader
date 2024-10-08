@@ -48,22 +48,16 @@ pip install -r requirements.txt
 ---
 
 ## Datasets
-Datasets will be added soon. The stock price data is sourced from **Yahoo Finance**, and news data is collected from **Benzinga**. News sentiment analysis will be performed using **FinBERT**.
+Dataset describtions will be added soon. The stock price data is sourced from **Yahoo Finance**, and news data is collected from **Benzinga**. News sentiment analysis will be performed using **FinBERT**.
 
 ---
 
 ## Citation
+Will be added soon.
 
 If you find this repository helpful in your research or project, please cite the article and consider giving a ⭐ on the repository.
 
-```
-@article{Veisi2024DRL,
-  title={A Deep Reinforcement Learning Approach Combining Technical and Fundamental Analyses with a Large Language Model for Stock Trading},
-  author={Mahan Veisi, Sadra Berangi, Mahdi Shahbazi Khojasteh, Armin Salimi-Badr},
-  journal={IEEE},
-  year={2024}
-}
-```
+
 
 ---
 
